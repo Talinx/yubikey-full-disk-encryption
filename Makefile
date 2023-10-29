@@ -8,6 +8,7 @@ reinstall:
 	install -Dm755 src/initramfs-suspend "$(DESTDIR)/usr/lib/ykfde-suspend/initramfs-suspend"
 	install -Dm644 src/ykfde-suspend.service "$(DESTDIR)/usr/lib/systemd/system/ykfde-suspend.service"
 	install -Dm755 src/ykfde-enroll "$(DESTDIR)/usr/bin/ykfde-enroll"
+	install -Dm755 src/ykfde-enroll-new "$(DESTDIR)/usr/bin/ykfde-enroll-new"
 	install -Dm755 src/ykfde-format "$(DESTDIR)/usr/bin/ykfde-format"
 	install -Dm755 src/ykfde-open "$(DESTDIR)/usr/bin/ykfde-open"
 	install -Dm644 README.md "$(DESTDIR)/usr/share/doc/ykfde/README.md"
